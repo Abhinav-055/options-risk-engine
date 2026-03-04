@@ -18,22 +18,24 @@ A professional-grade quantitative finance library in C++20 for pricing options, 
 
 ```
 options_engine/
+├── .gitignore
 ├── CMakeLists.txt
+├── README.md
 ├── include/
-│   ├── math_utils.hpp
+│   ├── binomial.hpp
 │   ├── black_scholes.hpp
 │   ├── greeks.hpp
-│   ├── monte_carlo.hpp
+│   ├── heston.hpp
 │   ├── implied_vol.hpp
-│   ├── binomial.hpp
-│   └── heston.hpp
+│   ├── math_utils.hpp
+│   └── monte_carlo.hpp
 ├── src/
-│   ├── math_utils.cpp
-│   ├── black_scholes.cpp
-│   ├── monte_carlo.cpp
-│   ├── implied_vol.cpp
 │   ├── binomial.cpp
-│   └── heston.cpp
+│   ├── black_scholes.cpp
+│   ├── heston.cpp
+│   ├── implied_vol.cpp
+│   ├── math_utils.cpp
+│   └── monte_carlo.cpp
 └── tests/
     └── test_all.cpp
 ```
